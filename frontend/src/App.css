@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Amiri:wght@400;700&display=swap');
+
+:root {
+  --color-primary: #0F3830;
+  --color-accent: #D4AF37;
+  --color-bg: #F8F8F8;
+  --color-text: #1F2937;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Neue', cursive;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+body.dark {
+  --color-bg: #1a1a1a;
+  --color-text: #f0f0f0;
+}

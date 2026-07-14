@@ -1,0 +1,1 @@
+"""Quran Hub Backend Application"""
